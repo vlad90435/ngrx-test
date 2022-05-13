@@ -1,0 +1,8 @@
+.example-card{
+  transition: all ease 2s;
+  background: #F2F4F5;
+  &__row{
+    display: flex;
+    justify-content: space-between;
+  }
+}

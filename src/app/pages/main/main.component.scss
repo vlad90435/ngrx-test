@@ -1,0 +1,13 @@
+.main{
+  transition: all ease 2s;
+  background: #EBF8FE;
+  &__container{
+
+  }
+  &__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}

@@ -12,6 +12,7 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
 import { MainEffects } from "./store/main/main.effects";
 import { StartAppComponent } from "./pages/start-app/start-app.component";
+import { TaskAddFormComponent } from './components/task-add-form/task-add-form.component';
 
 export const EFFECTS = [
   MainEffects

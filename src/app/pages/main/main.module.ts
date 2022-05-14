@@ -8,6 +8,7 @@ import { TodoListComponent } from "../../components/todo-list/todo-list.componen
 import { MatButtonModule } from "@angular/material/button";
 import { AppModule } from "../../app.module";
 import { TaskInfoModule } from "../../components/task-info/task-info.module";
+import { TaskAddFormModule } from "../../components/task-add-form/task-add-form.module";
 
 
 
@@ -19,6 +20,7 @@ import { TaskInfoModule } from "../../components/task-info/task-info.module";
 		TodoListModule,
 		MatButtonModule,
 		TaskInfoModule,
+		TaskAddFormModule,
 	
 	],
   declarations: [MainComponent, TodoListComponent],

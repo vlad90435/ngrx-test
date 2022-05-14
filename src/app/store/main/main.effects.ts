@@ -52,6 +52,8 @@ export class MainEffects {
 		}),
 	), {dispatch: false});
 	
+	// public addTodo$ - нет смысла для апи пустышки делать все эти эффекты
+	
 	constructor (private actions$: Actions,
 	             private store$: Store,
 	             private httpTodos: HttpTodosService) {

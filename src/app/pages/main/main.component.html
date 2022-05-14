@@ -1,7 +1,11 @@
 <div class="main">
 	<div class="main__container">
+		<div class="main__buttons-row">
+			<button  class="main__button" mat-raised-button color="accent" (click)="getTodos()">Get new data</button>
+			<button  class="main__button" mat-raised-button color="accent" (click)="restoreState()">Restore State</button>
+		</div>
+		<app-task-add-form></app-task-add-form>
+		<app-task-info></app-task-info>
 		<app-todo-list></app-todo-list>
-		<button  class="main__button" mat-raised-button color="accent" (click)="getTodos()">Get new data</button>
-		<button  class="main__button" mat-raised-button color="accent" (click)="restoreState()">Restore State</button>
 	</div>
 </div>

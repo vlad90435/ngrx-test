@@ -1,5 +1,7 @@
 <p>todo-list works!</p>
-<app-task-info></app-task-info>
-<div class="card-container" *ngFor="let i of cards$ | async">
- <app-todo-card [card]="i"></app-todo-card>
+<div class="card-row">
+	<div class="card-container" *ngFor="let i of cards$ | async">
+        <app-todo-card [card]="i"></app-todo-card>
+	</div>
 </div>
+

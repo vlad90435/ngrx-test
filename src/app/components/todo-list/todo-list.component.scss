@@ -1,0 +1,10 @@
+.card-row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.card-container{
+  margin: 0 15px;
+}

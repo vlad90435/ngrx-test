@@ -5,10 +5,6 @@ import { ICardModel } from "../../models/card-model";
 
 export namespace MainActions {
 	
-	export const input = createAction(
-		'[Main] Input',
-		props<{ title: string,  isInvalid: boolean }>(),
-	);
 	export const restoreAllState = createAction(
 		'[Main] Restore All state',
 	);
@@ -35,5 +31,9 @@ export namespace MainActions {
 	export const deleteTodoFailure = createAction(
 		'[Main] Delete Todo Failure',
 		props<{ error: HttpErrorResponse}>(),
+	);
+	export const addTodo = createAction(
+		'[Main] Add Todo',
+		props<{ todo: ICardModel}>(),
 	);
 }

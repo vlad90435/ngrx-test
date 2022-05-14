@@ -48,7 +48,7 @@ export class MainEffects {
 			console.log('deleted id', id)
 			alert('on this place should be popup success')
 			//this.store$.dispatch(MainActions.loadTodos())
-			alert('on this place should be popup get request after delete success')
+
 		}),
 	), {dispatch: false});
 	
